@@ -99,9 +99,7 @@ nav{
     border: 1em solid black;
 }
 
-#work{
-    display: inline-flex;
-}
+
 
 .image-skill{
     font-size: 4em;
@@ -126,8 +124,8 @@ nav{
 }
 
 #photo-me{
-    width: 13em;
-    height: 18em;
+    width: 14em;
+    height: 20em;
     border-radius: 50%;
     border: 15px solid white;
     margin-top: -4em;
@@ -140,4 +138,17 @@ nav{
 
 #text-about{
     margin-left: 4em;
+}
+
+#work div a img{
+    width: 25em;
+    height: 12em;
+    margin: .5em;
+    z-index: -1;
+    float: left;
+}
+
+#work .work-cont{
+    background-color: rgb(20, 26, 59,0.9);
+    
 }
