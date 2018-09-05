@@ -1,6 +1,6 @@
 .Colors{
 color: rgb(91, 40, 51);
-color: rgb(33, 33, 46);
+color: rgb(20, 26, 59);
 color: rgb(92, 93, 90);
 color: rgb(240, 242, 241);
 color: rgb(113, 80, 80);
@@ -12,15 +12,24 @@ color: rgb(113, 80, 80);
 
 #container-about-me{
     background-color: rgb(240, 242, 241);
+    width: 100%;
+    height: 25em;
+    padding-top: 3.5em;
 }
 
 
 #container-work{
-    background-color: rgb(33, 33, 46);
+    background-color: rgb(33, 33, 46,0.7);
+    width: 100%;
+    height: 35em;
+    padding-top: 3.5em;
 }
 
 #container-skills{
-    background-color: (240, 242, 241);
+    background-color: rgb(240, 242, 241);
+    height: 23em;
+    padding-top: 3.5em;
+    width: 100%;
 }
 
 #container-contact-me{
@@ -31,16 +40,15 @@ nav{
     background-color: rgba(41,45,90,0.5);
 }
 #container-home{
-    background-image: url("/assets/images/bg_city.jpg");
+    background-image: url("/assets/images/bg_city_2.jpg");
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     background-color: rgb( 0, 0, 0, 0.7);
     width: 100%;
     height: 35em;
     padding-top: 3.5em;
 }
-
-#about-me,#work, #skills, #contact-me{
+ #contact-me{
     width: 100%;
     height: 35em;
     padding-top: 3.5em;
@@ -61,15 +69,6 @@ nav{
     /* padding-top: 6Fem; */
 }
 
-.diamond{
-    display: inline-flex;
-    transform: rotate(45deg);
-    width: 5em;
-    height: 5em;
-    border: 6px solid #292D5A;
-    margin: 1em;
-    background-color: lightgoldenrodyellow;
-}
 #second-line-tech{
     margin-left: 2.6em;
 }
@@ -102,4 +101,43 @@ nav{
 
 #work{
     display: inline-flex;
+}
+
+.image-skill{
+    font-size: 4em;
+    width: 1em;
+    height: 1em;
+}
+
+.tech{
+    float: left;
+    list-style: none;
+    /* opacity: 0.8; */
+    margin: 1em;
+    
+}
+
+#skills{
+    /* justify-content: center; */
+}
+
+.list-skills{
+    text-align: center;
+}
+
+#photo-me{
+    width: 13em;
+    height: 18em;
+    border-radius: 50%;
+    border: 15px solid white;
+    margin-top: -4em;
+    margin-left: 7em;
+}
+
+#about-me div{
+    float: left;
+}
+
+#text-about{
+    margin-left: 4em;
 }
