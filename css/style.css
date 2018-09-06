@@ -142,11 +142,12 @@ nav{
 }
 
 #work div a img{
-    width: 24em;
+    width: 23em;
     height:8em;
     margin: .5em;
     z-index: -1;
     float: left;
+    border-radius: 5px;
 }
 
 #work .work-cont{
@@ -156,4 +157,6 @@ nav{
     margin: .5em;
     z-index: ;
     float: left;
+    border-radius: 5px;
+    padding: .3em;
 }
