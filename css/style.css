@@ -142,15 +142,15 @@ nav{
 }
 
 #work div a img{
-    width: 25em;
-    height: 12em;
+    width: 24em;
+    height:8em;
     margin: .5em;
     z-index: -1;
     float: left;
 }
 
 #work .work-cont{
-    background-color: rgb(20, 26, 59, 1);
+    background-color: rgb(20, 26, 59, 0.5);
     width: 25em;
     height: 12em;
     margin: .5em;
