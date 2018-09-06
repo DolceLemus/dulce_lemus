@@ -150,6 +150,10 @@ nav{
 }
 
 #work .work-cont{
-    background-color: rgb(20, 26, 59,0.9);
-    
+    background-color: rgb(20, 26, 59, 1);
+    width: 25em;
+    height: 12em;
+    margin: .5em;
+    z-index: ;
+    float: left;
 }
