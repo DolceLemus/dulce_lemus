@@ -34,6 +34,9 @@ color: rgb(113, 80, 80);
 
 #container-contact-me{
     background-color: rgb(92, 93, 90);
+    width: 100%;
+    height: 15em;
+    padding-top: 3.5em;
 }
 
 nav{
@@ -49,9 +52,7 @@ nav{
     padding-top: 3.5em;
 }
  #contact-me{
-    width: 100%;
-    height: 35em;
-    padding-top: 3.5em;
+    
 }
 
 #home{
@@ -102,7 +103,7 @@ nav{
 
 
 .image-skill{
-    font-size: 4em;
+    font-size: 5em;
     width: 1em;
     height: 1em;
 }
