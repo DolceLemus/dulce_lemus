@@ -35,7 +35,7 @@ color: rgb(113, 80, 80);
 #container-contact-me{
     background-color: rgb(92, 93, 90);
     width: 100%;
-    height: 15em;
+    height: 2em;
     padding-top: 3.5em;
 }
 
@@ -51,9 +51,6 @@ nav{
     height: 35em;
     padding-top: 3.5em;
 }
- #contact-me{
-    
-}
 
 #home{
     height: 17em;
@@ -67,7 +64,6 @@ nav{
 .skills-cont{
     padding: 3em;
     display: flex;
-    /* padding-top: 6Fem; */
 }
 
 #second-line-tech{
@@ -83,9 +79,6 @@ nav{
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 3px;
 }
-/* section{
-    border: 1px solid black;
-} */
 
 .btn-light{
     background-color: rgba(0, 0, 0, 0.7);
@@ -100,10 +93,14 @@ nav{
     border: 1em solid black;
 }
 
-
+.image-skill-nav{
+    font-size: 1.5em;
+    width: 1em;
+    height: 1em;
+}
 
 .image-skill{
-    font-size: 5em;
+    font-size: 4em;
     width: 1em;
     height: 1em;
 }
@@ -111,22 +108,17 @@ nav{
 .tech{
     float: left;
     list-style: none;
-    /* opacity: 0.8; */
     margin: 1em;
-    
 }
 
-#skills{
-    /* justify-content: center; */
-}
 
 .list-skills{
     text-align: center;
 }
 
 #photo-me{
-    width: 14em;
-    height: 20em;
+    width: 12em;
+    height: 18em;
     border-radius: 50%;
     border: 15px solid white;
     margin-top: -4em;
@@ -138,11 +130,11 @@ nav{
 }
 
 #text-about{
-    margin-left: 4em;
+    margin-left: 2em;
 }
 
 #work div a img{
-    width: 23em;
+    width: 18em;
     height:8em;
     margin: .5em;
     z-index: -1;
@@ -152,7 +144,7 @@ nav{
 
 #work .work-cont{
     background-color: rgb(20, 26, 59, 0.5);
-    width: 25em;
+    width: 20em;
     height: 12em;
     margin: .5em;
     z-index: ;
