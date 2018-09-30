@@ -46,6 +46,23 @@
     .list-skill{
         margin: 0 !important;
     }
+    #work .work-cont{
+        background-color: rgb(20, 26, 59, 0.5);
+        width: 17em;
+        height: 11em;
+        margin: .5em;
+        float: left;
+        border-radius: 5px;
+        padding: .3em;
+    }
+    #work div a img{
+        width: 15.5em;
+        height:7em;
+        margin: .5em;
+        z-index: -1;
+        float: left;
+        border-radius: 5px;
+    }
 }
 
 @media(max-width: 425px) and (min-width:319px){
@@ -66,5 +83,8 @@
     }
     #photo-me{
         display: none;
+    }
+    #work{
+        scroll-behavior: smooth;
     }
 }
