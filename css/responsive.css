@@ -5,6 +5,9 @@
     .text{
         padding-left: 10em;
     }
+    .skills-style{
+        margin-left: 20em;
+    }
     
 }
 
@@ -19,10 +22,13 @@
     .work-cont{
         width: 10em;
     }
+    .skills-style{
+        margin-left: 17em;
+    }
 }
 
 
-@media (max-width:768px) and (min-width: 424px){
+@media (max-width:768px) and (min-width: 426px){
     #icons-contact{
         display: none;
     }
@@ -84,7 +90,33 @@
     #photo-me{
         display: none;
     }
-    #work{
-        scroll-behavior: smooth;
+    #work div a img{
+        width: 6em;
+        height:6.5em;
+        margin: .2em;
+        z-index: -1;
+        float: left;
+        border-radius: 5px;
     }
+    
+    #work .work-cont{
+        background-color: rgb(20, 26, 59, 0.5);
+        width: 7em;
+        height: 10em;
+        margin: .5em;
+        float: left;
+        border-radius: 5px;
+        padding: .3em;
+    }
+    .text-each-work{
+        font-size: .8em;
+    }
+    .device-work-margin{
+        margin: 0 !important;
+    }
+    .image-skill{
+        font-size: 2.5em;
+    }
+
+    
 }
