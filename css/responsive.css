@@ -1,0 +1,122 @@
+@media (max-width: 1440px) and (min-width: 1025px){
+    .image-skill{
+        font-size: 5.5em;
+    }
+    .text{
+        padding-left: 10em;
+    }
+    .skills-text{
+        margin-left: 4em;
+    }
+    
+}
+
+
+@media (max-width: 1024px) and (min-width: 769px){
+    #icons-contact{
+        margin-left: 30em;
+    }
+    .fixed-top{
+        width: 100%;
+    }
+    .work-cont{
+        width: 10em;
+    }
+    .skills-text{
+        margin-left: 3em;
+    }
+}
+
+
+@media (max-width:768px) and (min-width: 426px){
+    #icons-contact{
+        display: none;
+    }
+    #icons-contact-device{
+        display: block;
+    }
+    #photo-me{
+        margin-left: 4em;
+        margin-top: 1em;
+        width: 9em;
+        height: 13em;
+        border: 5px solid white;
+    }
+    .nav-item{
+        display: inline-block;
+    }
+
+    main > section:first-child > div > h1:first-child{
+        font-size: 35px;
+    }
+    .list-skill{
+        margin: 0 !important;
+    }
+    #work .work-cont{
+        background-color: rgb(20, 26, 59, 0.5);
+        width: 17em;
+        height: 11em;
+        margin: .5em;
+        float: left;
+        border-radius: 5px;
+        padding: .3em;
+    }
+    #work div a img{
+        width: 15.5em;
+        height:7em;
+        margin: .5em;
+        z-index: -1;
+        float: left;
+        border-radius: 5px;
+    }
+}
+
+@media(max-width: 425px) and (min-width:319px){
+    .text-device{
+        display: none;
+    }
+    #icons-contact{
+        display: none;
+    }
+    #icons-contact-device{
+        display: block;
+    }
+    .nav-item{
+        display: inline-block;
+    }
+    #container-about-me{
+    height: 28em;
+    }
+    #photo-me{
+        display: none;
+    }
+    #work div a img{
+        width: 6em;
+        height:6.5em;
+        margin: .2em;
+        z-index: -1;
+        float: left;
+        border-radius: 5px;
+    }
+    
+    #work .work-cont{
+        background-color: rgb(20, 26, 59, 0.5);
+        width: 7em;
+        height: 10em;
+        margin: .5em;
+        float: left;
+        border-radius: 5px;
+        padding: .3em;
+    }
+    .text-each-work{
+        font-size: .8em;
+    }
+    .device-work-margin{
+        margin: 0 !important;
+    }
+    .image-skill{
+        font-size: 2em;
+    }
+
+    
+}
