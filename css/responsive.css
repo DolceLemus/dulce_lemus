@@ -5,8 +5,8 @@
     .text{
         padding-left: 10em;
     }
-    .skills-style{
-        margin-left: 20em;
+    .skills-text{
+        margin-left: 4em;
     }
     
 }
@@ -22,8 +22,8 @@
     .work-cont{
         width: 10em;
     }
-    .skills-style{
-        margin-left: 17em;
+    .skills-text{
+        margin-left: 3em;
     }
 }
 
@@ -115,7 +115,7 @@
         margin: 0 !important;
     }
     .image-skill{
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
     
